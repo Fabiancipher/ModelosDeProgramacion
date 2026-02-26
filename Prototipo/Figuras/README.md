@@ -1,0 +1,1 @@
+# Ejemplo prototipo con figuras
