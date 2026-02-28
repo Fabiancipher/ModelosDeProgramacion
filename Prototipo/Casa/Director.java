@@ -7,6 +7,6 @@ public class Director{
     }
 
     public void construirCasaMadera(){
-        builder.construirCasa("Cristal", "Circular", "Madera", 1.0f, 1.0f, "Madera", 1.0f, 1.0f);
+        builder.construirCasa("Cristal", "Circular", "Madera", 1.0f, 1.0f, "Madera", 1.0f, 1.0f, "Blanco", "Madera");
     }
 }

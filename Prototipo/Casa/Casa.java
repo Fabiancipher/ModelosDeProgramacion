@@ -3,15 +3,17 @@ public class Casa{
     public Ventana ventana;
     public Puerta puerta;
     public Techo techo;
+    public Pared pared;
     
-    public Casa(Ventana ventana, Puerta puerta, Techo techo) {
+    public Casa(Ventana ventana, Puerta puerta, Techo techo, Pared pared) {
         this.ventana = ventana;
         this.puerta = puerta;
         this.techo = techo;
+        this.pared = pared;
     }
 
     public Casa clonar(){
-        Casa clon = new Casa(this.ventana, this.puerta, this.techo);
+        Casa clon = new Casa(this.ventana, this.puerta, this.techo, this.pared);
         return clon;
     }
 
@@ -20,6 +22,9 @@ public class Casa{
     }
     public void setPuerta(Puerta puerta){
         this.puerta = puerta;
+    }
+    public void setPared(Pared pared){
+        this.pared = pared;
     }
     public void setTecho(Techo techo){
         this.techo = techo;
