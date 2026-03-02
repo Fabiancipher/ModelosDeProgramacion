@@ -1,8 +1,8 @@
 package Fabricas;
-import EntradasSalidas.Entrada;
-import EntradasSalidas.EntradaConsola;
-import EntradasSalidas.Salida;
-import EntradasSalidas.SalidaConsola;
+import Globales.EntradasSalidas.Entrada;
+import Globales.EntradasSalidas.EntradaConsola;
+import Globales.EntradasSalidas.Salida;
+import Globales.EntradasSalidas.SalidaConsola;
 public class FabConsola implements FabAbstracta{
     public FabConsola(){
 
