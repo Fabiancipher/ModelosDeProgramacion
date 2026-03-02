@@ -1,8 +1,8 @@
 package Fabricas;
-import Globales.EntradasSalidas.Entrada;
-import Globales.EntradasSalidas.EntradaArchivo;
-import Globales.EntradasSalidas.Salida;
-import Globales.EntradasSalidas.SalidaArchivo;
+import EntradasSalidas.Entrada;
+import EntradasSalidas.EntradaArchivo;
+import EntradasSalidas.Salida;
+import EntradasSalidas.SalidaArchivo;
 public class FabArchivo implements FabAbstracta{
     public FabArchivo(){
 

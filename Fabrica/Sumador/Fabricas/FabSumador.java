@@ -1,6 +1,6 @@
 package Fabricas;
-import Globales.Operaciones.Operacion;
-import Globales.Operaciones.Sumador;
+import Operaciones.Operacion;
+import Operaciones.Sumador;
 public class FabSumador extends FabOperaciones{
     public FabSumador(){
 

@@ -1,4 +1,4 @@
-package Globales;
+package Adaptador;
 public class Adaptador{
 
     public Adaptador(){

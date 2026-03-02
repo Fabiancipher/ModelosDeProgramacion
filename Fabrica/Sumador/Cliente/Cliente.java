@@ -1,9 +1,9 @@
 package Cliente;
-import Globales.EntradasSalidas.Entrada;
-import Globales.EntradasSalidas.Salida;
+import EntradasSalidas.Entrada;
+import EntradasSalidas.Salida;
 import Fabricas.FabAbstracta;
 import Fabricas.FabOperaciones;
-import Globales.Operaciones.Operacion;
+import Operaciones.Operacion;
 /**
  * Esta es una clase que representa un cliente de las fabricas
  * El cliente tiene una entrada, una salida y un operador, los cuales se pueden cambiar a través de las fábricas abstractas y concretas

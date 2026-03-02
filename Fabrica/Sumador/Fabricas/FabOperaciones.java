@@ -1,5 +1,5 @@
 package Fabricas;
-import Globales.Operaciones.Operacion;
+import Operaciones.Operacion;
 public abstract class FabOperaciones{
     public abstract Operacion generarOperacion();
 }
