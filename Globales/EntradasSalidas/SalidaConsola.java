@@ -1,7 +1,17 @@
 package EntradasSalidas;
 public class SalidaConsola implements Salida{
     @Override
-    public void mostrar(String m){
+    public void enviar(String m){
+        System.out.println(m);
+    }
+
+    @Override
+    public void enviar(double m){
+        System.out.println(m);
+    }
+
+    @Override
+    public void enviar(Object m){
         System.out.println(m);
     }
 }

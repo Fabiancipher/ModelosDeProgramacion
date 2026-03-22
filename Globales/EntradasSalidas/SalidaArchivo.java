@@ -18,9 +18,31 @@ public class SalidaArchivo implements Salida{
     }
 
     @Override
-    public void mostrar(String m){
+    public void enviar(String m){
         try {
             escritor.write(m+"\n");
+            escritor.close();
+        } 
+        catch (IOException e) {
+            System.err.println("Error: "+e);
+        }
+    }
+
+    @Override
+    public void enviar(double m){
+        try {
+            escritor.write(m+"\n");
+            escritor.close();
+        } 
+        catch (IOException e) {
+            System.err.println("Error: "+e);
+        }
+    }
+
+    @Override
+    public void enviar(Object m){
+        try {
+            escritor.write(m.toString()+"\n");
             escritor.close();
         } 
         catch (IOException e) {
