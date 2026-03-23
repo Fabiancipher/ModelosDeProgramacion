@@ -1,5 +1,9 @@
 package EntradasSalidas;
 public class SalidaConsola implements Salida{
+	public SalidaConsola() {
+		
+	}
+	
     @Override
     public void enviar(String m){
         System.out.println(m);
