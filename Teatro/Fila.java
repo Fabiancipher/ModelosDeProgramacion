@@ -41,10 +41,22 @@ public class Fila extends Asiento{
     @Override
     public String toString() {
     	StringBuilder sb = new StringBuilder();
+        sb.append("NUMERO DE FILA: ").append(numero).append("\n");
     	sb.append("TIPO DE FILA: ").append(tipo.getMaterial()).append("\n");
     	sb.append("COLOR DE LA FILA: ").append(tipo.getColor()).append("\n");
     	sb.append("DESDE: ").append(asientos.get(0).numero).append("\n");
     	sb.append("HASTA: ").append(asientos.get(asientos.size()-1).numero).append("\n");
     	return sb.toString();
+    }
+
+    /**
+     * Retorna el asiento especificado
+     * <p>
+     * Se obtiene con el número del asiento -1
+     * @param id : El indice
+     * @return
+     */
+    public Asiento getAsiento(int id){
+        return asientos.get(id);
     }
 }
