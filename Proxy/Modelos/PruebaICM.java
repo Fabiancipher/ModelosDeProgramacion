@@ -1,3 +1,4 @@
+package Proxy.Modelos;
 public class PruebaICM{
     public static void main(String[] args) {
         ProxyICM proxyICM = new ProxyICM();
